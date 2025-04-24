@@ -6,22 +6,19 @@
     android:orientation="vertical"
     android:layout_height="match_parent">
 
-
-
     <ImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@drawable/nowifi"
         android:visibility="gone"
-
         android:layout_centerInParent="true"
-        android:id="@+id/noWifi"/>
-
+        android:id="@+id/noWifi"
+        android:contentDescription="@string/no_internet"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NO INTERNET"
+        android:text="@string/no_internet"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="25sp"
@@ -56,7 +53,7 @@
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_margin="10dp"
-        android:src="@drawable/download"
+        android:src="@drawable/software"
         app:civ_border_width="2dp"
         app:civ_border_color="@color/red"/>
 
@@ -64,7 +61,7 @@
         android:id="@+id/sportsImage"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:src="@drawable/sports"
+        android:src="@drawable/hardware"
         android:layout_margin="10dp"
         app:civ_border_width="2dp"
         app:civ_border_color="@color/red"/>
@@ -73,13 +70,11 @@
         android:id="@+id/techImage"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:src="@drawable/tech"
+        android:src="@drawable/ai"
         app:civ_border_width="2dp"
         android:layout_margin="10dp"
 
         app:civ_border_color="@color/red"/>
-
-
 
     </LinearLayout>
 
@@ -91,14 +86,12 @@
         android:layout_height="wrap_content"
         android:visibility="invisible" />
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvBreakingNews"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/hsv"
         android:clipToPadding="false"
+        android:contentDescription="News"
         android:paddingBottom="50dp" />
-
-
 </RelativeLayout>
