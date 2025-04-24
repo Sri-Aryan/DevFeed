@@ -57,25 +57,23 @@ Most people rely on **newsletters** or scattered sources, which are **inconvenie
 
 ---
 
-💙 **If you like this project, give it a ⭐!**  
-
----
-
-### Breaking News Fragment 
-![](images/breakingnews.png)
+### Home Activity Fragment 
+![Home](https://github.com/user-attachments/assets/4d19504d-6456-4c97-b619-c4c844ccce7d)
 
 
-### Article View Fragment
-![](images/articleview.png)
+
+### Category View Fragment
+![Category](https://github.com/user-attachments/assets/25ad8cfe-15fe-4a9b-bf21-d7051092e66a)
 
 
 ### Saved News Fragment
-![](images/savednews.png)
+![Saved](https://github.com/user-attachments/assets/ca8ac1f4-10b3-4159-b079-6f54ca840cbd)
+
 
 
 ### SearchView
-![](images/searchview.png)
+![Search](https://github.com/user-attachments/assets/3a3b292c-1c8e-4937-b2c7-75449f0abd98)
 
 
-### Dialog to Delete
-![](images/dialogtodelete.png)
+### Article View
+![ArticleView](https://github.com/user-attachments/assets/89b3d844-0b21-43f3-ab1f-59034da1570e)
